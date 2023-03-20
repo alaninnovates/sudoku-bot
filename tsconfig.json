@@ -1,0 +1,10 @@
+{
+	"extends": "@tsconfig/node18-strictest-esm/tsconfig.json",
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"rootDir": "src",
+		"outDir": "dist",
+		"module": "node16",
+		"target": "es2022"
+	}
+}
